@@ -1,0 +1,45 @@
+html {  
+    background: url(images/foodBackground.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    }
+  
+  .container {
+    font-family: 'DynaPuff', cursive;
+    font-family: 'Roboto', sans-serif;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    height: 70vh;
+   }
+  
+  
+  #enter {
+    font-family: 'DynaPuff', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    border-radius: 300px;
+    text-transform: uppercase;
+    border-color: #e4474c;
+    background-color: #e4474c;
+  }
+  
+  #enter:hover {
+    background-color: #ef7781;
+    border-color: #ef7781;
+  }
+
+  #userinput {
+    padding: 5px;
+  }
+
+  li {
+    cursor: pointer;
+  }
+  
+  .crossOut {
+    text-decoration: line-through;
+  }
+  
